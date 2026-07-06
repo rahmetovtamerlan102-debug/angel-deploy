@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: angel-api
+    runtime: python
+    plan: free
+    buildCommand: pip install -r requirements.txt
+    startCommand: python api_angel.py
